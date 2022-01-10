@@ -1,0 +1,5 @@
+^[0-9- :,]*(root|__main__|Trainer) \t \[[^E].*
+^[0-9- :,]*(root|__main__|Trainer) \t \[ERROR\] \t [^E].*
+(^tensor|^       ).*
+
+^[0-9- :,]*(root|__main__|Trainer) \t \[ERROR\] \t (Excluded context due to too less arguments \(1\): |Excluded context due to causing nans: )
